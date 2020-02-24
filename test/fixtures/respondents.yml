@@ -1,0 +1,11 @@
+one:
+  id: 1
+  identifier: "00001"
+  gender:     Female
+  department: Sales
+
+two:
+  id: 2
+  identifier: "00002"
+  gender:     Male
+  department: Sales

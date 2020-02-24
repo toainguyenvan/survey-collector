@@ -1,0 +1,7 @@
+one:
+  id: 1
+  type: 'QuestionType::Scored'
+
+two:
+  id: 2
+  type: 'QuestionType::OpenEnded'
