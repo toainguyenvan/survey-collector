@@ -5,17 +5,17 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+# Ruby version
 
 2.5.7
 
-* System dependencies
+# System dependencies
 
 - Docker
 - Docker compose
 - Postgres
 
-* Configuration
+# Configuration
 
 - Build
 ```bash
@@ -27,7 +27,7 @@ docker-compose build
 docker-compose up -d
 ```
 
-* Database creation
+# Database creation
 
 - Migration
 ```bash
@@ -41,11 +41,11 @@ Import Table `Question` and `Respondent` from `questions.yml` and `respondents.y
 docker-compose run web rake db:import_data
 ```
 
-* How to run the test suite
+# How to run the test suite
 
-- Test casses
+- Test
 ```bash
-docker-compose run web rspec
+docker-compose run web rails test -b
 ```
 
 - API `Create Submission` (Create submission): 
@@ -64,7 +64,7 @@ Payload:
       "questionId": 2,
       "body":       "Unclear expectations"
     },
-    ...
+  
   ]
 }
 ```
